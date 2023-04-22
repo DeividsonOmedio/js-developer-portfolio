@@ -8,5 +8,13 @@ footer {
 }
 
 footer img {
-    max-width: 100px;
+    max-width: 40px;
+    padding-bottom: 24px;
+    zoom: 1;
+    
+}
+footer img:hover{
+    zoom: 1.1;
+    transition: all 3s;
+    cursor: url("../img/joia.png");
 }

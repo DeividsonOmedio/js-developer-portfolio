@@ -23,7 +23,7 @@ function updateProfileInfo(profileData) {
 }
 
 function updatedotnetskills(profileData) {
-    const dotnetskills = document.getElementById('profile.skilss.dotnetskills')
+    const dotnetskills = document.getElementById('profile.skills.dotnetskills')
     dotnetskills.innerHTML = profileData.skills.dotnetskills.map(skill => `<li>${skill}</li>`).join('')
 }
 function updateSoftSkills(profileData) {
