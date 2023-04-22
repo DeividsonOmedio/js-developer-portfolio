@@ -1,15 +1,12 @@
 {
-  "name": "Deividson Omédio",
+  "name": "Deividson O Coelho",
   "photo": "https://raw.githubusercontent.com/DeividsonOmedio/js-developer-portfolio/main/data/imgs/deividson.jpeg",
   "job": "Desenvolvedor Dot.Net",
   "location": "Barão de Cocais - MG",
   "phone": "(31) 97164-2274",
   "email": "deividsonomedio@gmail.com",
   "skills": {
-    "DotNetSkills": [
-      
-    ],
-    "hardSkills": [
+    "dotnetskills": [
       {
         "name": "C#",
         "logo": "https://raw.githubusercontent.com/DeividsonOmedio/js-developer-portfolio/main/data/imgs/csharp.png"
@@ -25,7 +22,9 @@
       {
         "name": "Sqlserver",
         "logo": "https://raw.githubusercontent.com/DeividsonOmedio/js-developer-portfolio/main/data/imgs/sql.png"
-      },
+      }
+    ],
+    "hardSkills": [
       {
         "name": "Javascript",
         "logo": "https://raw.githubusercontent.com/DeividsonOmedio/js-developer-portfolio/main/data/imgs/js.png"
@@ -52,7 +51,7 @@
       "Organização"
     ]
   },
-  "CyberSecurity": [
+  "languages": [
     "CCNA Introduction - CISCO",
     "CyberOps Associate - CISCO  ",
     "CyberSecurity - CISCO"

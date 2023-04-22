@@ -23,6 +23,10 @@ function updateProfileInfo(profileData) {
 }
 
 function updateSoftSkills(profileData) {
+    const softSkills = document.getElementById('profile.skilss.dotnetskills')
+    softSkills.innerHTML = profileData.skills.dotnetskills.map(skill => `<li>${skill}</li>`).join('')
+}
+function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
