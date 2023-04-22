@@ -59,11 +59,11 @@
   "portfolio": [
     {
       "name": "Portifólio Completo desenvolvido somente com HTML, CSS e Javascript",
-      "url": "https://deividson-portidolio.netilfy.app",
+      "url": "https://deividson-portifolio.netlify.app",
       "github": true
     },
     {
-      "name": "Portifílio desenvolvido em Asp.Net",
+      "name": "Sistema de Hospedagem de Hotel - C#",
       "url": "https://github.com/DeividsonOmedio/",
       "github": true
     },
@@ -73,8 +73,8 @@
       "github": true
     },
     {
-      "name": "Asp.Net MVC",
-      "url": "https://github.com/DeividsonOmedio/trilha-net-api-desafio",
+      "name": "Agenda de contatos - Asp.Net MVC",
+      "url": "https://github.com/DeividsonOmedio",
       "github": true
     },
     {
