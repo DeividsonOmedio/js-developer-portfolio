@@ -22,9 +22,10 @@ function updateProfileInfo(profileData) {
     email.href = `mailto:${profileData.email}`
 }
 
-function updatedotnetskills(profileData) {
+function updateDotnetskills(profileData) {
     const dotnetskills = document.getElementById('profile.skills.dotnetskills')
     dotnetskills.innerHTML = profileData.skills.dotnetskills.map(skill => `<li>${skill}</li>`).join('')
+    console.log(dotnetskills)
 }
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
@@ -70,7 +71,7 @@ function updateProfessionalExperience(profileData) {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
-    updatedotnetskills(profileData)
+    updateDotnetskills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
