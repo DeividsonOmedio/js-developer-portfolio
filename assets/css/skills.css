@@ -1,6 +1,7 @@
 .skills {
     display: flex;
     flex-direction: column;
+
 }
 
 .skills .tools ul {
@@ -34,6 +35,7 @@
     margin-left: 2rem;
     padding: .5rem
 }
+
 
 @media only screen and (min-width: 768px) {
     .skills {
